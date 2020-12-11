@@ -1,0 +1,73 @@
+/* video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+   */
+   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,800&display=swap');
+
+  .third-container {
+    background: url("../images/img-section3.jpg") center center no-repeat; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+  
+  .metamask-container {
+    box-sizing: border-box;
+    border: solid #ddb916 10px;
+    margin: 300px
+  }
+  /* .interaction-container {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #dd7016;
+  }
+ 
+   */
+
+  
+  .second-btns {
+    margin-top: 60px;
+  }
+  
+  .second-btns .btn {
+    margin: 6px;
+  }
+  
+
+  
+  @media screen and (max-width: 960px) {
+    .third-container > h1 {
+      font-size: 700px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .third-container > h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 500px;
+      margin-top: -100px;
+    }
+  
+    .third-container > p {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
